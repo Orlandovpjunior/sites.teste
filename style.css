@@ -1,0 +1,71 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Merriweather:wght@700&family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font01: 'Lilita One', cursive;
+    --font02: 'Montserrat', sans-serif;
+    --cor01: #2028EB;
+    --cor02: #1691f694;
+    --cor03: #4113D4;
+    --cor04: #134CD4;
+    --cor05: #8816F6;
+}
+
+header{
+    background-color: var(--cor02);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+    font-size: 1.8em;
+    font-family: var(--font01);
+    padding: 10px;
+}
+
+header > h1, p{
+    text-align: center;
+}
+
+header > nav{
+    text-align: right; 
+}
+
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: var(--cor05);
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+}
+
+main{
+    width: 800px;
+    margin: auto;
+    background-color: wheat;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+main > section{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.486);
+}
+
+footer{
+    background-color: var(--cor04);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
