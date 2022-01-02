@@ -40,6 +40,13 @@ main{
     background-size: cover;
 }
 
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
 .container{
     position: relative;
     display: flex;
