@@ -8,43 +8,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="content">
-                <h2>01</h2>
-                <h3>Card um</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laboriosam libero optio quod quas inventore, vel dignissimos, similique provident non tenetur. Ea nemo tempore voluptatem at excepturi officia quas quia.</p>
-                <a href="#">Mais informações</a>
+    <header>
+        <h1>Bem vindos ao site da análise técnica</h1>
+        <nav>
+            <p>Acesse também o nosso canal do<a href="#">Youtube</a></p>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>Renda Fixa</h3>
+                    <p>Nessa opção você aprenderá formas de aplicações financeiras mais seguras e buscando uma rentabilidade acima do valor da inflação com os títulos públicos, bancários e de empresas</p>
+                    <a href="#">Mais informações</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>Renda variável</h3>
+                    <p>Nessa opção você aprenderá sobre como especular os preços dos ativos na bolsa de valores e criptomoedas com base nos fundamentos da análise técnica</p>
+                    <a href="#">Mais informações</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h2>03</h2>
+                    <h3>Invesitidor NFT</h3>
+                    <p>Nessa opção você aprenderá como investir em NFT (Jogos, quadros, memes e etc) e aprenderá como ganhar dinheiro nesse novo mercado</p>
+                    <a href="#">Mais informações</a>
+                </div>
             </div>
         </div>
-
-        <div class="card">
-            <div class="content">
-                <h2>02</h2>
-                <h3>Card dois</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laboriosam libero optio quod quas inventore, vel dignissimos, similique provident non tenetur. Ea nemo tempore voluptatem at excepturi officia quas quia.</p>
-                <a href="#">Mais informações</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="content">
-                <h2>03</h2>
-                <h3>Card três</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laboriosam libero optio quod quas inventore, vel dignissimos, similique provident non tenetur. Ea nemo tempore voluptatem at excepturi officia quas quia.</p>
-                <a href="#">Mais informações</a>
-            </div>
-        </div>
-
-    </div>
-    <script src="vanilla-tilt.js"></script>  
+    </main>
+    <script src="vanilla-tilt.js"></script>
     <script>
         VanillaTilt.init(document.querySelectorAll(".card"),{
             max: 25,
             speed: 400,
             glare: true,
-            "max glare": 1,
+            "max-glare": 1,
         });
-    </script>  
+    </script>
 </body>
 </html>
